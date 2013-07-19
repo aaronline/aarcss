@@ -1,0 +1,396 @@
+@charset "utf-8";
+/* AAR CSS */
+
+.polaroid {
+  padding:7px;
+	background:#f7f6f2;
+	border-right:1px solid #ebe4dc;
+	border-bottom:1px solid #ebe4dc !important;
+	-webkit-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.tiltright {
+	-webkit-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	transform: rotate(2deg);
+	}
+.tiltleft {
+	-webkit-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+	}
+.boxout {
+	background:#f7f6f2;
+	margin-top:20px;
+	margin-bottom:25px;
+	padding:15px;
+	border:1px solid #ebe4dc;
+	}
+.rounded {
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	}
+.shadow {
+	-webkit-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	}
+.lead-in {
+	font-size:18px; line-height:22px; font-style:italic;padding-right:50px;color:#888;
+	}
+.anchorshim {	
+	display:block;	
+	padding-top:15px;
+	}
+.sectiongrp {
+	background: transparent url(http://aar.exposeduniverse.com/wp-content/uploads/2013/01/tan-fade.png) repeat-x top left;
+	margin-top:28px;
+	padding:12px 15px 0 15px;
+	border-top:1px solid #d5d1cb;
+	}
+.sectiongrp h3, .sectiongrp2 h3 {
+	margin-top:0;
+	padding-top:0;
+	}
+.sectiongrp2 {
+	background: transparent url(http://aar.exposeduniverse.com/wp-content/uploads/2013/01/tan-fade.png) repeat-x top left;
+	margin-top:10px;
+	padding:12px 15px 5px 15px;
+	border-top:1px solid #d5d1cb;
+	}
+.sectiongrp2 h3 span.videosubject {
+	display:block;
+	font-size:12px; font-style:italic;
+	color:#999;
+	padding-left:8px;
+	}	
+.insetvideobox {
+	background: #d9e4ee;
+	padding:15px;
+	}
+.moretextcontainer, .moretext2container {
+	display: none;
+	margin-bottom:10px;
+	}
+.moretext2container p {
+	font-size:13px;
+	line-height:1.5;
+	padding-left:10px;
+	padding-right:10px;
+	}
+.sectiongrp2 a, 
+.sectiongrp2 a:hover  {
+text-decoration:none !important;
+}
+a#moretext1-show, 
+a#moretext2-show, 
+a#moretext3-show, 
+a#moretext4-show, 
+a#moretext5-show, 
+a#moretext6-show, 
+a#moretext7-show, 
+a#moretext8-show,
+a:hover#moretext1-show, 
+a:hover#moretext2-show, 
+a:hover#moretext3-show, 
+a:hover#moretext4-show, 
+a:hover#moretext5-show, 
+a:hover#moretext6-show, 
+a:hover#moretext7-show, 
+a:hover#moretext8-show,
+a#moretext1-hide, 
+a#moretext2-hide, 
+a#moretext3-hide, 
+a#moretext4-hide, 
+a#moretext5-hide, 
+a#moretext6-hide, 
+a#moretext7-hide, 
+a#moretext8-hide,
+a:hover#moretext1-hide, 
+a:hover#moretext2-hide, 
+a:hover#moretext3-hide, 
+a:hover#moretext4-hide, 
+a:hover#moretext5-hide, 
+a:hover#moretext6-hide, 
+a:hover#moretext7-hide, 
+a:hover#moretext8-hide	{
+	text-decoration:none !important;
+	}
+
+.openclose {
+margin-right:3px; 
+padding:1px 7px 2px 7px;
+color:#fff;
+font-weight:bold;
+background:#d5d1cb;
+	}
+.openclose strong {
+	position:relative; top:-1px;
+	}
+
+/* Make Videos Responsive */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.imgadjust-si {position:relative; top:-10px;}
+.asidecolumn {
+    width:15%;
+    padding-right:3%;
+    float:left;
+}
+.widecolumn {
+     float:left;
+     width:79%;
+     padding:0 1.5%;
+ }
+
+ 
+.featuredsubhead {font-size:80%;}
+
+/* adjustment to invexi video frame */
+.videoouterwrapper {
+	background:#000;
+	}
+
+/* AZR specific -------------------------------- */
+.azrheaderwrap {
+	margin-top:25px;
+	}
+.azrcover {
+	border-top:1px solid #ddd;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	border-left:1px solid #ddd;
+	-webkit-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	}
+
+/* Event Page specific -------------------------------- */
+.evntwrapper {}
+.evntwrapper h2, .evntwrapper h3, .evntwrapper h4 {
+	color:#bd2524;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.evntwrapper h3, .evntwrapper h4 {font-size:1.1em;}
+.evntwrapper p, .evntwrapper li, .evntwrapper dt, .evntwrapper dd {font-size:.9em; line-height:1.3em;}
+.evntwrapper dt {padding-top:5px; border-top:1px solid #ddd;}
+.evntschedulewrap dl {margin-left:0; padding-top:8px; }
+.evntschedulewrap dt, .evntschedulewrap dd {margin-left:0;padding-left:20px;}
+.evntheader {}
+
+ul.eventnav li.anchorlnk a {}
+
+a.evnttop {}
+
+.evntaside {}
+
+ul.evntmainnav {
+list-style:none; 
+margin-top:0;
+margin-left:0;
+padding-top:0; 
+padding-left:0; 
+font-weight:bold;
+border-top:1px solid #eee;
+}
+ul.evntmainnav li {
+margin-top:0;
+margin-bottom:0;
+border-bottom:1px solid #eee;
+}
+ul.evntmainnav li a,
+ul.evntmainnav li a:visited {
+display:block;
+padding:7px 16px;
+background:#fff;
+text-decoration:none;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+ul.evntmainnav li a:hover,
+ul.evntmainnav li a:active {
+background:#f7f6f2;
+color:#333;
+}
+li.evntmainnavhome a,
+li.evntmainnavregistration a,
+li.evntmainnavlocation a,
+li.evntmainnavschedule a,
+li.evntmainnavhandouts a,
+li.evntmainnavceclasses a,
+li.evntmainnavpromotion a,
+li.evntmainnavactivities a,
+li.evntmainnavexpo a {
+
+}
+
+
+li.evntmainnavhome a {}
+li.evntmainnavregistration a {}
+li.evntmainnavlocation a {}
+li.evntmainnavschedule a {}
+li.evntmainnavhandouts a {}
+li.evntmainnavceclasses a {}
+li.evntmainnavpromotion a {}
+li.evntmainnavactivities a {}
+li.evntmainnavexpo a {}
+
+body.page-id-12467 ul.evntmainnav li.evntmainnavhome a,
+body.page-id-12896 ul.evntmainnav li.evntmainnavlocation a,
+body.page-id-12938 ul.evntmainnav li.evntmainnavschedule a,
+body.page-id-13139 ul.evntmainnav li.evntmainnavceclasses a,
+body.page-id-13178 ul.evntmainnav li.evntmainnavpromotion a,
+body.page-id-13215 ul.evntmainnav li.evntmainnavexpo a,
+body.page-id-13213 ul.evntmainnav li.evntmainnavspeakers a
+ {color:#bd2524;}
+
+.scprizemodule {padding-top:0;padding-bottom:20px;}
+.scprizemodule h3 {text-shadow: 0 -1px 1px rgba(0,0,0,0.58),  1px 1px 1px rgba(255,255,255,0.9);letter-spacing:1px;font-size:27px;line-height:28px;color:#cccbc5;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #cccbc5;} 
+.scprizemodule h4 {font-size:16px;font-weight:bold; color:#596f7a;padding-bottom:10px;}
+.scprizemodule p {padding:0 15px 7px 15px;margin-top:0;margin-bottom:0;}
+.scprize {font-weight:bold; font-size:20px;line-height:21px;margin-bottom:-15px;padding-bottom:-15px;}
+.scpm1 {background:#f7f6f2 url('http://www.aaronline.com/wp-content/uploads/2013/02/ipad-mini2.png') no-repeat bottom right;}
+.scpm2 {background:#f7f6f2 url('http://www.aaronline.com/wp-content/uploads/2013/02/chips-n-cards2.png') no-repeat bottom right;}
+.scpm3 {background:#f7f6f2 url(http://www.aaronline.com/wp-content/uploads/2013/02/plate2.png) no-repeat bottom right;}
+
+.scspeakerbox {margin-bottom:20px; padding-bottom:15px;border-bottom:1px solid #ccc;}
+.scspeaker {width: 26%; max-width:150px; float:left; margin-right:4%; margin-bottom:10px;}
+.scspeakerinfo {
+width:69%; 
+float:left;
+}
+.mc {
+	padding: 0 15px 15px 15px;
+}
+.mc-info {
+	width:60%;
+}
+@media screen and (max-width: 780px) {
+.scspeakerbox {margin-bottom:20px; padding-bottom:15px;border-bottom:1px solid #ccc;}
+.scspeaker {width: 100%; max-width:320px; float:none; display:block; margin-right:0; margin-bottom:10px;}
+.scspeakerinfo {
+width:100%; 
+float:none;
+margin:0;
+padding:0;
+display: block;
+}
+.mc-info {
+	width:100%;
+}
+}
+.undostrikethru {text-decoration:none !important;}
+.page-id-4375 .home-center h2 {
+	display:block;
+font-size:13px;
+	text-transform:uppercase;
+padding-bottom:5px;
+}
+/* Twitter Hashtag Feed */
+.tweet { overflow: hidden; clear: both; text-align: left; margin-bottom: 15px; border-bottom: 1px solid #fff; padding-bottom: 13px; }
+.tweet.first { }
+.tweet_foto {
+	width:48px; 
+	float:left; 
+	background-color:#fff;
+	-moz-box-shadow: 2px 3px 6px rgba(0,0,0,.5);
+	-webkit-box-shadow: 2px 3px 6px rgba(0,0,0,.5);
+	box-shadow: 2px 3px 6px rgba(0,0,0,.5);
+	}
+.tweet_text { float: right; font-size: 12px; width: 160px; line-height: 15px;color: #000; }
+.tweet_text a { color: #936; }
+.tweet_text a:hover, .tweet_text a.profile:hover { color: #000; }
+.tweet_text a.profile { color: #936; text-decoration: none; font-weight: bold; }
+.tweet_text span { display: block; color: #666; }
+/* #container { width: 200px; margin: auto; text-align: left; overflow: hidden; position: relative; } */
+#tweet_container { width: 220px; margin: auto; text-align: left; height: 600px; overflow: hidden; font-weight: normal; }
+/* #container h1 { text-transform: uppercase; font-weight: bold; font-size: 14px; height: 38px; background-image: url(img/title_bg.gif); background-repeat: repeat-x; line-height: 42px; padding-left: 8px; color: #5d5c5a; } */
+.holder { padding-top: 8px; border-top: none; max-height: 403px; padding-bottom: 8px;  }
+
+
+/* Flickr Feed - Spring Convention 2013 */
+#flickr_badge_wrapper {
+	width:auto;
+	/*width:90%;text-align:left;*/
+	/*width:30%;padding-right:3%;float:left;*/
+}
+.flickr_badge_image {
+	margin:0px;
+	display:inline;
+}
+.flickr_badge_image a:link img, .flickr_badge_image a:visited img {
+	border: 1px solid #CCCCCC !important; 
+	padding:6px; margin:5px;
+	background:#fff;	
+	-webkit-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	box-shadow:2px 3px 4px rgba(0, 0, 0, 0.25);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.flickr_badge_image a:hover img {	
+	background:#eee;
+	-webkit-box-shadow:1px 2px 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:1px 2px 2px rgba(0, 0, 0, 0.4);
+	box-shadow:1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.flickr_badge_image a:active img {	
+	background:#ddd;
+	position:relative;
+	top:1px;
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* Flickr Feed - Spring Convention 2013 */
+
+
+/*
+	-webkit-transform: scale(1.15) rotate(.5deg) translate(0,0);
+	-moz-transform: scale(1.15) rotate(.5deg) translate(0,0);
+	-o-transform: scale(1.15) rotate(.5deg) translate(0,0);
+*/
+
+/* Broker Involvement Program Page */
+.bipbg {
+width:100%;
+margin-top:0;
+background: #fff url(http://www.aaronline.com/wp-content/uploads/2013/06/broker-involvement-bg-slice1.png) repeat-x top left;
+}
+.bipbginner {
+width:100%;
+margin-top:0;
+background: transparent url(http://www.aaronline.com/wp-content/uploads/2013/06/broker-involvement-bg1.png) no-repeat top right;
+}
+/* end - Broker Involvement Page */
+
+.group:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
